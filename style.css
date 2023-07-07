@@ -1,0 +1,57 @@
+body {
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    font-family: Arial, sans-serif;
+    color: white;
+  }
+  
+  h1 {
+    font-size: 60px;
+    font-weight: bold;
+  }
+  
+  #countdown {
+    font-size: 60px;
+    margin-top: 20px;
+  }
+
+  .social-media {
+    margin-top: 5rem;
+    line-height: 0;
+  }
+
+  .social-media a{
+    font-size: 0;
+  }
+
+  .social-media img{
+    padding: 1.5rem;
+    height: 120px;
+    width: 120px;
+    transition: transform 0.3s ease;
+  }
+
+  .social-media img:hover{
+    transform: scale(1.1);
+  }
+
+  @media screen and (max-width: 768px) {
+    h1 {
+      font-size: 40px;
+    }
+
+    .social-media {
+      flex-wrap: wrap;
+      margin-top: 2rem;
+    }
+
+    .social-media img {
+      height: 80px;
+      width: 80px;
+      margin: 0.5rem;
+    }
+  }
